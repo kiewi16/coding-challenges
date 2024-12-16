@@ -29,3 +29,9 @@ hitCounter.record(9)
 
 console.log(hitCounter.total())
 console.log(hitCounter.range(3, 7))
+
+// this is an object method: in the context of an object method, this refers to the object itself. Without this, JavaScript would look for a variable called hits in the local scope (the scope of the function), and if it doesn't find one, it would result in an error or unexpected behavior. 
+
+// this helps you access the properties and methods of the current object.
+
+// this is a reference to a current object
